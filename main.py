@@ -32,7 +32,7 @@ def check_win():
 def play():
     x_cord=-230
     y_cord=100
-    user_bet=(screen.textinput(title='Make Your Bet', prompt='Which turtle(red, green, blue, purple, yellow) will win win the race? Enter a color')).lower()
+    user_bet=(screen.textinput(title='Make Your Bet', prompt='Which turtle(red, green, blue, purple, yellow) will win  the race? Enter a color')).lower()
     print(f"User's choice: {user_bet}")
     # generate heading at center
     turtle_heading=Turtle()
